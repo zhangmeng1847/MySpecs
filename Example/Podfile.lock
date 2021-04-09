@@ -1,0 +1,16 @@
+PODS:
+  - CJLServices (0.1.0)
+
+DEPENDENCIES:
+  - CJLServices (from `../`)
+
+EXTERNAL SOURCES:
+  CJLServices:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CJLServices: 0404a865cb0e8d5f792f26b73a336673f7ae4753
+
+PODFILE CHECKSUM: a537d0b577ce7f38e75fc23efb625700b0627e52
+
+COCOAPODS: 1.10.1

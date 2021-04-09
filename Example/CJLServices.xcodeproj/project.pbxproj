@@ -31,7 +31,7 @@
 		27412386BC810DAF5E9E9539 /* Pods_CJLServices_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJLServices_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		282CDBE4EE5C0AF3DE1639AC /* Pods_CJLServices_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJLServices_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB4D3DD93614D9BBEE42B71 /* Pods-CJLServices_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJLServices_Tests.release.xcconfig"; path = "Target Support Files/Pods-CJLServices_Tests/Pods-CJLServices_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5D76C36D0917B34707C4F02C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5D76C36D0917B34707C4F02C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CJLServices_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJLServices_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		63CFA66F7CBDC7D4265A4E57 /* Pods-CJLServices_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJLServices_Example.debug.xcconfig"; path = "Target Support Files/Pods-CJLServices_Example/Pods-CJLServices_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B299FA0B9F1C5ABFFF0A9B33 /* CJLServices.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CJLServices.podspec; path = ../CJLServices.podspec; sourceTree = "<group>"; };
+		B299FA0B9F1C5ABFFF0A9B33 /* CJLServices.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CJLServices.podspec; path = ../CJLServices.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CF4366213368D046A64A19DC /* Pods-CJLServices_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJLServices_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CJLServices_Tests/Pods-CJLServices_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E3298EE489D40B6C51796901 /* Pods-CJLServices_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJLServices_Example.release.xcconfig"; path = "Target Support Files/Pods-CJLServices_Example/Pods-CJLServices_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FFBF72EFA6EFE6B03776FB4A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FFBF72EFA6EFE6B03776FB4A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				CF4366213368D046A64A19DC /* Pods-CJLServices_Tests.debug.xcconfig */,
 				4EB4D3DD93614D9BBEE42B71 /* Pods-CJLServices_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

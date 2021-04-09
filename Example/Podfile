@@ -4,6 +4,8 @@ platform :ios, '9.0'
 
 target 'CJLServices_Example' do
   pod 'CJLServices', :path => '../'
+#  pod 'CJLServices', :path => '../../CJLServices'
+
 
   target 'CJLServices_Tests' do
     inherit! :search_paths
