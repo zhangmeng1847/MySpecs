@@ -10,7 +10,7 @@ import UIKit
 import RxCocoa
 import RxSwift
 
-class VerificationCodeViewController: UIViewController {
+public  class VerificationCodeViewController: UIViewController {
     
     let disposeBag:DisposeBag = DisposeBag()
     var verifiTextField:UITextField?
@@ -25,7 +25,7 @@ class VerificationCodeViewController: UIViewController {
         setupEvent()
     }
     
-    func setupUI() {
+    public  func setupUI() {
         view.backgroundColor = UIColor.white
         verifiTextField = UITextField.init()
         submitButton = UIButton.init(type: .custom)
@@ -57,7 +57,7 @@ class VerificationCodeViewController: UIViewController {
         
     }
     
-    func setupEvent(){
+    public func setupEvent(){
         //使用Rx对输入框内容进行监听，如果监听内容发生改变，按钮状态进行改变
         let verifiInput = verifiTextField?.rx.text.orEmpty.asDriver()
             .throttle(.milliseconds(300))    //当文本框内容改变（0.3秒内值若多次改变，取最后一次）

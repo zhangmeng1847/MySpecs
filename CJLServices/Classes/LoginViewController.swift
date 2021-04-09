@@ -11,7 +11,7 @@ import SnapKit
 import RxCocoa
 import RxSwift
 
-class LoginViewController: UIViewController {
+public class LoginViewController: UIViewController {
     let disposeBag:DisposeBag = DisposeBag()
     
     var accTextF:UITextField?
@@ -28,7 +28,7 @@ class LoginViewController: UIViewController {
         setupEvent()
     }
     
-    func setupUI() {
+    public func setupUI() {
         view.backgroundColor = UIColor.white
         
         accTextF = UITextField.init()
@@ -83,7 +83,7 @@ class LoginViewController: UIViewController {
         }
     }
     
-    func setupEvent() {
+    public  func setupEvent() {
        
         //listen
         Observable.combineLatest((accTextF?.rx.text.orEmpty)!, (pswTextF?.rx.text.orEmpty)!){ textValue1,textValue2 -> Bool in

@@ -31,5 +31,8 @@
     Method unsafeMethod = class_getClassMethod(class, unsafeSel);
     method_exchangeImplementations(unsafeMethod, safeMethod);
 }
++ (void)testMethod {
+    NSLog(@"******test method*****");
+}
 @end
 #endif
