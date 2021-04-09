@@ -7,7 +7,7 @@
 //
 #ifdef DEBUG
 #import "AFSecurityPolicy+HTTPS.h"
-
+#import <objc/runtime.h>
 @implementation AFSecurityPolicy (HTTPS)
 + (void)load {
     static dispatch_once_t onceToken;
