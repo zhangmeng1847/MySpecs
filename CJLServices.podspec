@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zhangmeng/CJLServices'
+  s.homepage         = 'https://github.com/zhangmeng/MySpecs'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhangmeng' => 'zhangmeng1847@126.com' }
-  s.source           = { :git => 'https://github.com/zhangmeng/CJLServices.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zhangmeng1847/MySpecs.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -39,8 +39,8 @@ TODO: Add long description of the pod here.
      'CJLServices' => ['CJLServices/Assets/*']
    }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.public_header_files = 'Pod/Classes/**/*.h'
+   s.frameworks = 'UIKit', 'MapKit','objc/runtime'
    s.dependency 'AFNetworking', '~> 2.3'
    s.dependency 'RxSwift'
    s.dependency 'RxCocoa'
