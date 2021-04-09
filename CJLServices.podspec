@@ -39,8 +39,8 @@ TODO: Add long description of the pod here.
      'CJLServices' => ['CJLServices/Assets/*']
    }
 
-   s.public_header_files = 'Pod/Classes/**/*.h'
-   s.public_header_files = 'Pod/Classes/**/*.swift'
+   s.public_header_files = 'Pod/Classes/**/**/*.h'
+   s.public_header_files = 'Pod/Classes/**/**/*.swift'
 #   s.frameworks = 'UIKit', 'MapKit','objc/runtime'
    s.dependency 'AFNetworking', '~> 2.3'
    s.dependency 'RxSwift'
