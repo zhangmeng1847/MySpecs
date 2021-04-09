@@ -12,14 +12,14 @@ import RxCocoa
 import RxSwift
 
 public class LoginViewController: UIViewController {
-    let disposeBag:DisposeBag = DisposeBag()
+    public let disposeBag:DisposeBag = DisposeBag()
     
-    var accTextF:UITextField?
-    var pswTextF:UITextField?
-    var loginButton:UIButton?
-    var jumpVerifiButton:UIButton?
+    public var accTextF:UITextField?
+    public var pswTextF:UITextField?
+    public var loginButton:UIButton?
+    public var jumpVerifiButton:UIButton?
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         
         super.viewDidLoad()
         

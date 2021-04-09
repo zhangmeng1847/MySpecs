@@ -12,11 +12,11 @@ import RxSwift
 
 public  class VerificationCodeViewController: UIViewController {
     
-    let disposeBag:DisposeBag = DisposeBag()
-    var verifiTextField:UITextField?
-    var submitButton:UIButton?
+    public let disposeBag:DisposeBag = DisposeBag()
+    public var verifiTextField:UITextField?
+    public var submitButton:UIButton?
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         
         super.viewDidLoad()
         
